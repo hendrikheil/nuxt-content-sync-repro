@@ -1,0 +1,1 @@
+import{a as t,B as s,C as r,a8 as n}from"./BOlbIazt.js";import{u as _}from"./CYxgHk92.js";const p=t({__name:"index",async setup(c){let e,a;const{locale:o}=s(_());return[e,a]=r(()=>n(o.value)),await e,a(),(u,i)=>" Loading, though no user should really ever see this because of SSR. "}});export{p as default};
