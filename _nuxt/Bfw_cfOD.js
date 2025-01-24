@@ -1,0 +1,1 @@
+import{_ as s}from"./HJpsJ2UP.js";import{l as a,g as _,j as n,w as o,F as c,f as d,A as r}from"./Bl_Ac4Uq.js";const f={};function i(l,e){const t=s;return d(),_(c,null,[n(t,{to:"/de"},{default:o(()=>e[0]||(e[0]=[r("Zur deutschen Seite")])),_:1}),n(t,{to:"/en"},{default:o(()=>e[1]||(e[1]=[r("To english version")])),_:1})],64)}const x=a(f,[["render",i]]);export{x as default};
