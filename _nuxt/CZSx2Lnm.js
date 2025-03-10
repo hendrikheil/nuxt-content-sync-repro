@@ -1,1 +1,0 @@
-import{S as o,c,U as f,H as d,V as v,W as l,X as i,D as h,Y as m}from"./CZXgcdXG.js";function I(t,a={}){const e=a.head||o();if(e)return e.ssr?e.push(t,a):p(e,t,a)}function p(t,a,e={}){const s=c(!1),n=c({});f(()=>{n.value=s.value?{}:m(a)});const r=t.push(n.value,e);return d(n,u=>{r.patch(u)}),h()&&(v(()=>{r.dispose()}),l(()=>{s.value=!0}),i(()=>{s.value=!1})),r}export{I as u};
