@@ -4,7 +4,10 @@ export default defineContentConfig({
   collections: {
     pages: defineCollection({
       type: 'page',
-      source: 'pages/**/*.md',
+      source: {
+        include: 'pages/*.md',
+        prefix: '',
+      },
       schema: z.object({
         navigation: z.union([
           z.boolean(), // set to allow default of false, should never really be true
