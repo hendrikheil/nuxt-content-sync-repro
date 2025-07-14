@@ -1,1 +1,0 @@
-import{a as s,f as e,k as t,F as l,ah as o,t as r}from"./D4ORse4z.js";const i=s({__name:"Repeated",props:{elements:{}},setup(p){return(a,u)=>(t(),e("ul",null,[(t(!0),e(l,null,o(a.elements,n=>(t(),e("li",null,r(n.prefix)+": "+r(n.content),1))),256))]))}});export{i as default};
