@@ -1,0 +1,1 @@
+import{a as o,f as t,k as a,F as i,ah as c,i as s,t as n}from"./Df0Bz7qQ.js";const p=["src","alt"],m=o({__name:"Media",props:{items:{}},setup(u){return(r,d)=>(a(),t("div",null,[(a(!0),t(i,null,c(r.items,(e,l)=>(a(),t("div",{key:l},[s("img",{src:e.image,alt:e.alt||e.title},null,8,p),s("h3",null,n(e.title),1),s("p",null,n(e.description),1)]))),128))]))}});export{m as default};
