@@ -2,7 +2,6 @@
 navigation: header
 ---
 
-
 ::repeated
 ---
 elements:
@@ -13,4 +12,7 @@ elements:
   - prefix: C
     content: Lorem ipsum.
 ---
+::
+
+::media{img="public/preview-default.png"}
 ::
