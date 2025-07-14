@@ -1,16 +1,20 @@
 <script setup lang="ts">
 defineProps<{
-  image?: {
-    src: string;
+  items: {
+    image: string;
     alt?: string;
-  };
-  image_url?: string;
-  img?: string;
+    title: string;
+    description: string;
+  }[];
 }>();
 </script>
 
 <template>
-    <img :src="image?.src" :alt="image?.alt || ''" />
-    <img :src="image_url" />
-    <img :src="img" />
+  <div>
+    <div v-for="(item, index) in items" :key="index">
+      <img :src="item.image" :alt="item.alt || item.title" />
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+    </div>
+  </div>
 </template>
