@@ -14,5 +14,5 @@ elements:
 ---
 ::
 
-::media{img="public/preview-default.png"}
+::media{img="/preview-default.png"}
 ::
